@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "An exstension to save cool/intersting websites or tools for latter or to just not forget about them",
+    "version": "1.0.0",
+    "action": {
+      "default_popup": "hello.html",
+      "default_icon": "hello_extensions.png"
+    }
+    ,"icons": {
+    "16": "hello_extensions.png"
+  }
+}

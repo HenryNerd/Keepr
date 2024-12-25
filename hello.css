@@ -1,0 +1,21 @@
+body {
+    background-color: #63de6bff;
+    font-family: "Nunito Sans ", sans-serif;
+    color: whitesmoke;
+}
+
+.input {
+    color: red;
+}
+
+.saved {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    width: 99%;
+    align-items: center;
+}
+
+.submit {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
