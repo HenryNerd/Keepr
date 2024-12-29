@@ -1,22 +1,23 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans">
-        <link rel="stylesheet" href="hello.css">
-    </head>
-  <body>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans">
+    <link rel="stylesheet" href="popup/popup.css">
+    <script src="popup/popup.js"></script>
+</head>
+<body>
     <h1>Keepr</h1>
     <form>
-        <div class="input"></div>
+        <div class="input">
             <label for="siteName">Site Name:</label><br>
-            <input type="text" id="siteName" name="siteName"><br>
+            <input type="text" id="siteName" name="siteName" placeholder="Enter the site name"><br>
             <label for="siteNotes">Notes:</label><br>
-            <input type="text" id="siteNotes" name="siteNotes"><br>
+            <input type="text" id="siteNotes" name="siteNotes" placeholder="Add some notes"><br>
         </div>
         <br>
         <input type="submit" class="submit" value="Save">
     </form>
     <br>
-    <br>
-    <button class="saved" type="button">Saved Websites</button> 
-  </body>
+    <button id="savedSites" class="saved" type="button">Saved Websites</button>
+</body>
 </html>

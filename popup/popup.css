@@ -1,7 +1,7 @@
 body {
     background-color: #4cfb4c;
-    font-family: "Nunito Sans ", sans-serif;
-    color: whitesmoke;
+    font-family: "Nunito Sans", sans-serif;
+    color: #1a1a1a; /
 }
 
 .input {
@@ -12,7 +12,8 @@ body {
     background-color: whitesmoke;
     border-color: whitesmoke;
     width: 99%;
-    align-items: center;
+    display: block;
+    margin: 0 auto; 
 }
 
 .submit {
